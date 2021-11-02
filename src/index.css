@@ -1,13 +1,113 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "circular-std-medium-500",
+    "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+@font-face {
+  font-family: "circular-std-medium-500";
+  src: url("./fonts/circular-std-medium-500.ttf");
+}
+.commonFont {
+  font-family: "circular-std-medium-500";
+}
+.title-big {
+  color: #1a243a;
+  font-size: 70px;
+}
+.title-sub {
+  color: #bdbebf;
+  font-size: 24px;
+}
+.success-txt {
+  color: #67bf6b;
+  font-size: 18px;
+  font-family: "circular-std-medium-500" !important;
+  font-weight: normal !important;
+}
+.container {
+  width: 800px;
+  margin: 40px auto 0;
+}
+.menu-txt {
+  color: #6f7177;
+  font-size: 18px;
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+.chartContainer {
+  width: 750px;
+  height: 341px;
+  border: 1px solid #ddd;
+}
+sup {
+  top: -0.8em !important;
+}
+.ui.secondary.pointing.menu {
+  border-bottom: none !important;
+}
+hr.fullWd {
+  margin-top: 2px;
+}
+.ui.secondary.pointing.menu .active.item {
+  border-color: dodgerblue !important;
+}
+.ui.secondary.pointing.menu .item {
+  line-height: 53px !important;
+  margin-right: 22px !important;
+  padding: 5px !important;
+  border-bottom-width: 4px !important;
+}
+.ui.modal {
+  width: 90% !important;
+  margin: 0;
+}
+.right-align {
+  float: right;
+  /* margin-top: -44px; */
+}
+.right-align .ui.menu {
+  border: none !important;
+  box-shadow: none !important;
+}
+.right-align .ui.menu .item {
+  padding: 0.22857143em 1.14285714em;
+  border-radius: 8px !important;
+}
+.right-align .ui.menu .item:before {
+  width: 0;
+}
+.right-align .ui.menu .active.item {
+  background: dodgerblue !important;
+  color: #fff;
+  font-weight: 400;
+  box-shadow: none;
+}
+.right-align .ui.menu .active.item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #fff;
+}
+.modal-call {
+  position: absolute;
+  z-index: 9;
+  margin-top: 13px;
+}
+.btnGp {
+  position: absolute;
+  z-index: 8;
+  margin-top: 17px;
+}
+.modal-Comparebtn {
+  position: absolute;
+  top: 40px;
+  z-index: 8;
+  cursor: pointer;
 }
