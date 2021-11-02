@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/chart-demo/static/css/main.4d43375b.chunk.css",
+    "main.js": "/chart-demo/static/js/main.81e13a56.chunk.js",
+    "main.js.map": "/chart-demo/static/js/main.81e13a56.chunk.js.map",
+    "runtime-main.js": "/chart-demo/static/js/runtime-main.a45fd602.js",
+    "runtime-main.js.map": "/chart-demo/static/js/runtime-main.a45fd602.js.map",
+    "static/css/2.9e804bfb.chunk.css": "/chart-demo/static/css/2.9e804bfb.chunk.css",
+    "static/js/2.478fe5cc.chunk.js": "/chart-demo/static/js/2.478fe5cc.chunk.js",
+    "static/js/2.478fe5cc.chunk.js.map": "/chart-demo/static/js/2.478fe5cc.chunk.js.map",
+    "index.html": "/chart-demo/index.html",
+    "static/css/2.9e804bfb.chunk.css.map": "/chart-demo/static/css/2.9e804bfb.chunk.css.map",
+    "static/css/main.4d43375b.chunk.css.map": "/chart-demo/static/css/main.4d43375b.chunk.css.map",
+    "static/js/2.478fe5cc.chunk.js.LICENSE.txt": "/chart-demo/static/js/2.478fe5cc.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/chart-demo/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/index.css": "/chart-demo/static/media/circular-std-medium-500.3fcb6535.ttf",
+    "static/media/icon.05967c0d.svg": "/chart-demo/static/media/icon.05967c0d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a45fd602.js",
+    "static/css/2.9e804bfb.chunk.css",
+    "static/js/2.478fe5cc.chunk.js",
+    "static/css/main.4d43375b.chunk.css",
+    "static/js/main.81e13a56.chunk.js"
+  ]
+}
