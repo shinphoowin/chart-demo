@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useReducer } from "react";
+import React, { useState, useEffect } from "react";
 import RenChart from "./components/Chart";
 import Menumini from "./components/Menumini";
 import ExpandModal from "./components/Modal";
